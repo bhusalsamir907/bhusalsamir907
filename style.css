@@ -1,0 +1,140 @@
+body{
+	background: lightgreen;
+	margin:0px;
+}
+
+       header{
+       	    background:skyblue;
+	        border:1px solid black;
+			text-align:center;
+			color:darkred;
+			padding:5px;
+			font-family:"Comic Sans Ms";
+		 }
+		 h2{
+		 	font-family:"Comic Sans Ms";
+		 }
+
+
+          
+          nav{
+          	overflow:hidden;
+          	background:skyblue;
+          }
+
+       a{
+       	float: left;
+       	color:black;
+       	padding:20px 25px 15px 20px;
+       	text-decoration:none;
+       }
+
+       nav a:hover{
+       	background-color:darkred;
+       	color: white;      	
+       }
+
+       p{
+       	text-align: justify-all;
+       }
+		
+		.invest{
+			
+			text-align:left;
+			float: left;
+			padding: 10px;
+			width:all;
+			border:0.5px solid black;
+
+		} 
+
+		.column{
+			float: left;	
+			padding: 10px;
+			border: 1px solid black;
+			padding: 5px;
+			font-size: 18px;
+			font-family: Comic Sans Ms;
+		}
+
+
+        .column.side1{
+        	width:23%;
+        }
+
+        .column.middle{
+        	width:45%;
+        }
+
+        .column.side2{
+        	width:26%;
+        }
+
+        div.gallery{
+	margin: 15px;
+	border: 5px solid black;
+	float: left;
+	width: 300px;
+}
+
+div.gallery:hover{
+  border: 5px solid orange; 
+}
+
+    div.gallery img{
+    	width: 100%;
+    	margin: 0;
+    	float: center;
+    }	 
+
+    div.desb{
+    	font-family: "Comic Sans Ms";
+    	text-align: center;
+    	padding:10px;
+    }
+
+   fieldset{
+   	width: 30%;
+   	padding:10px;
+   	text-align:left;
+   	margin:1px;
+   	border: 2px solid darkred;
+   }
+
+   input[type=text], textarea, select{
+   	padding: 5px;
+   	width: 80%;
+   	font-family: "Comic Sans Ms";
+   	border: 1px solid black;
+   	margin-top:5px ;
+   	margin-bottom:10px ;
+   	resize: vertical;
+   }
+
+   input[type=submit]{
+   	background-color:lightblue ;
+   	border: 1px solid blue;
+   	padding: 10px;
+   }
+
+  @media screen and (max-width: 917px){
+        	.column.side1, .column.middle, .column.side2{
+        		width: 100%;
+        	}
+        }
+		
+
+
+
+
+
+		footer{
+			clear: both;
+            border:1px solid black;
+			text-align:center;
+			text-overflow:;
+			color:darkred;
+			padding:1px;
+			font-size:20px;
+		    font-family:"Comic Sans Ms";	
+		}
